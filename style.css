@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+table,th,tr,td{
+    
+    border-bottom: 1px solid white;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 20px;
+}
+
+.nameBlock{
+    display: flex;
+    align-items: center;
+}
+
+.nameBlock > span{
+    padding-left: 20px;
+}
